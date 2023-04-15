@@ -4,9 +4,7 @@ async function main() {
     const Nft = await ethers.getContractFactory('NFT');
     const constructorArgs = process.env.METADATA_URL;
     const contract = await Nft.deploy(constructorArgs);
-
     await contract.deployed();
-
     console.log(`successfully deployed! ${contract.address}`);
 }
 
