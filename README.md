@@ -14,6 +14,9 @@ export METADATA_URL=
 npx hardhat run scripts/deploy.ts --network mumbai
 ```
 
-- `env` 명령어를 통해 위에 `export` 명령어로 등록한 환경변수를 shell에서 확인할 수 있다
-
+## reference sites
+- https://mumbai.polygonscan.com/address/0xe4ea0b9d767f03e9af24eda663bc6554dc980193
+  - contract deploy history
+- https://testnets.opensea.io/collection/ethtokyozkteam-1
+  - watch our nft collection on opensea testnet
 
